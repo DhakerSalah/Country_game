@@ -1,0 +1,130 @@
+h1 {
+  font-size:30px;
+  color:#49e700;
+  text-align:center;	
+  text-decoration: overline underline;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 10px #594F4F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.head {
+  background: -webkit-linear-gradient(left, #aae3fd, #467bca, #1922a3, #050218);
+  padding: 6px;
+  font-size: 50px;
+  box-sizing: border-box;
+}
+
+.options {
+  float: left;
+  width: 30%;
+  height: 440px;
+  font-size: 50px;
+  background: rgba(255, 255, 255, 0.281);
+  padding:5px;
+  border-radius: 25px;
+}
+
+select {
+  width: 54%;
+  height: 6%;
+  border-radius: 8px;
+  border-color: black;
+}
+
+span {
+  font-size: 25px;
+}
+
+.img {
+  float: left;
+  padding: 10px;
+  width: 67%;
+  background-color: rgba(233, 233, 233, 0.281);
+  height: 440px;
+  border-radius: 25px;
+  margin-left: 15px;
+}
+
+#image {
+  border: 3px dashed burlywood;
+  border-radius: 40px;
+  padding: 5px;
+  width: 810px;
+  height:420px;
+  margin-left:20px;
+}
+#image:hover {
+  border: 6px double blue;
+  border-radius: 40px;
+  padding: 5px;
+  width: 810px;
+  height:420px;
+  margin-left:20px;
+}
+
+.buttons {
+  background: -webkit-linear-gradient(left, #aae3fd, #467bca, #1922a3, #050218);
+  padding:5px;
+  text-align: center;
+  color: white;
+}
+
+.btreset{
+	background-color: #f44336;
+	border: none;
+	border-radius: 9px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.btreset:hover{
+	background-color: #c90d00;
+	border: none;
+	border-radius: 9px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.btstart{
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btstart:hover{
+  background-color: rgb(33, 121, 36);
+  border: none;
+  border-radius: 9px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

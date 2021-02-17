@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<title>DHAKER-Jeu de pays</title>
+<link rel="stylesheet" href="style.css" />
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<form name="f1" onreset="ResForm()">
+<fieldset><legend style="font-weight:bold">JEUX DE PAYS "STAN"</legend>
+
+<div class="head">
+<h1 onmousedown="mousedown(this)" onmouseup="mouseup(this)">Jeux de Pays en STAN</h1>
+</div>
+
+<div class="options">
+<span>1-</span>
+<select name="s1" id="ss1" >
+<option  value ="vide" style="font-weight: bold;">Choisir le pays numéro 1</option>
+<option  value ="Afghanistan" >Afghanistan</option>
+<option  value ="Azerbaïdjan">Azerbaïdjan</option>
+<option  value ="Kirghizistan">Kirghizistan</option>
+<option  value ="Pakistan">Pakistan</option>
+<option  value ="Tadjikistan">Tadjikistan</option>
+<option  value ="Turkménistan">Turkménistan</option>
+<option  value ="Ousbékistan">Ousbékistan</option>
+</select>
+<span>&#10132;</span>
+
+<br>
+<span>2-</span>
+<select name="s2" onclick="rep()">
+<option  value ="vide" style="font-weight: bold;">Choisir le pays numéro 2</option>
+<option  value ="Afghanistan" >Afghanistan</option>
+<option  value ="Azerbaïdjan">Azerbaïdjan</option>
+<option  value ="Kirghizistan">Kirghizistan</option>
+<option  value ="Pakistan">Pakistan</option>
+<option  value ="Tadjikistan">Tadjikistan</option>
+<option  value ="Turkménistan">Turkménistan</option>
+<option  value ="Ousbékistan">Ousbékistan</option>
+</select>
+<span>&#10132;</span>
+
+<br>
+<span>3-</span>
+<select name="s3">
+<option  value ="vide" style="font-weight: bold;">Choisir le pays numéro 3</option>
+<option  value ="Afghanistan" >Afghanistan</option>
+<option  value ="Azerbaïdjan">Azerbaïdjan</option>
+<option  value ="Kirghizistan">Kirghizistan</option>
+<option  value ="Pakistan">Pakistan</option>
+<option  value ="Tadjikistan">Tadjikistan</option>
+<option  value ="Turkménistan">Turkménistan</option>
+<option  value ="Ousbékistan">Ousbékistan</option>
+</select>
+<span>&#10132;</span>
+
+<br>
+<span>4-</span>
+<select name="s4">
+<option  value ="vide" style="font-weight: bold;">Choisir le pays numéro 4</option>
+<option  value ="Afghanistan" >Afghanistan</option>
+<option  value ="Azerbaïdjan">Azerbaïdjan</option>
+<option  value ="Kirghizistan">Kirghizistan</option>
+<option  value ="Pakistan">Pakistan</option>
+<option  value ="Tadjikistan">Tadjikistan</option>
+<option  value ="Turkménistan">Turkménistan</option>
+<option  value ="Ousbékistan">Ousbékistan</option>
+</select>
+<span>&#10132;</span>
+
+<br>
+<span>5-</span>
+<select name="s5" >
+<option  value ="vide" style="font-weight: bold;">Choisir le pays numéro 5</option>
+<option  value ="Afghanistan" >Afghanistan</option>
+<option  value ="Azerbaïdjan">Azerbaïdjan</option>
+<option  value ="Kirghizistan">Kirghizistan</option>
+<option  value ="Pakistan">Pakistan</option>
+<option  value ="Tadjikistan">Tadjikistan</option>
+<option  value ="Turkménistan">Turkménistan</option>
+<option  value ="Ousbékistan">Ousbékistan</option>
+</select>
+<span>&#10132;</span>
+
+<br>
+<span>6-</span>
+<select name="s6">
+<option  value ="vide" style="font-weight: bold;">Choisir le pays numéro 6</option>
+<option  value ="Afghanistan" >Afghanistan</option>
+<option  value ="Azerbaïdjan">Azerbaïdjan</option>
+<option  value ="Kirghizistan">Kirghizistan</option>
+<option  value ="Pakistan">Pakistan</option>
+<option  value ="Tadjikistan">Tadjikistan</option>
+<option  value ="Turkménistan">Turkménistan</option>
+<option  value ="Ousbékistan">Ousbékistan</option>
+</select>
+<span>&#10132;</span>
+
+<br>
+<span>7-</span>
+<select name="s7">
+<option  value ="vide" style="font-weight: bold;">Choisir le pays numéro 7</option>
+<option  value ="Afghanistan" >Afghanistan</option>
+<option  value ="Azerbaïdjan">Azerbaïdjan</option>
+<option  value ="Kirghizistan">Kirghizistan</option>
+<option  value ="Pakistan">Pakistan</option>
+<option  value ="Tadjikistan">Tadjikistan</option>
+<option  value ="Turkménistan">Turkménistan</option>
+<option  value ="Ousbékistan">Ousbékistan</option>
+</select>
+<span>&#10132;</span>
+
+</div>
+
+<div class="img">
+<img src="img/carte.png" alt="carte des pays stan" id="image">
+</div>
+
+<div class="buttons">
+<input type="reset" name="res" class="btreset"  value="Initialiser">
+<input type="button" name="ValidForm" class="btstart" onclick="verif()" value="Valider">
+</div>
+
+</form>
+</body>
+</html>
